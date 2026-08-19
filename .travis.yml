@@ -10,7 +10,7 @@ script:
 
 after_success:
   - docker build -t chakri1408/multi-client ./client
-  - docker build -t chakri1408/multi-nginx ./nginx
+  - docker build -t chakri1408/multi-nginx ./ngnix
   - docker build -t chakri1408/multi-server ./server
   - docker build -t chakri1408/multi-worker ./worker
   # Log in to the Docker CLI
