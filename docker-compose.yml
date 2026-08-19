@@ -7,7 +7,7 @@ services:
   redis:
     image: "redis:latest"
   ngnix:
-    restart: always
+    # restart: always
     ports:
       - "3030:80"
     build:
